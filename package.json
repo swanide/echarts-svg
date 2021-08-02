@@ -1,6 +1,6 @@
 {
   "name": "echarts-svg",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "render echarts on node, exports svg document",
   "main": "lib/index.js",
   "files": [
@@ -10,6 +10,11 @@
   "scripts": {
     "test": "node test/index.js && open -a '/Applications/Google Chrome.app' test/chart-default.svg",
     "lint": "mew ./lib --rule"
+  },
+  "homepage": "https://github.com/baijia-fe/echarts-svg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baijia-fe/echarts-svg.git"
   },
   "author": "kekee000@gmail.com",
   "license": "MIT",
